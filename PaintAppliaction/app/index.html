@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #F0F0F0;
+        }
+    </style>
+</head>
+<body ng-app="myApp" >
+<div ng-controller="stageController" >
+<my-stage id="stage"  ></my-stage>
+</div>
+<script src="lib/konva.min.js" defer></script>
+<script src="lib/angular.min.js"></script>
+<!--<script src="costant/StageEvents.js"></script>-->
+<script  src="js/CustomDirective.js"></script>
+<script src="services/StageHelperService.js"></script>
+<script src="js/StageController.js"></script>
+
+</body>
+</html>
